@@ -8,15 +8,14 @@ A modern cryptocurrency intelligence platform with real-time price tracking, new
 - Latest crypto news feed
 - Price alerts and notifications
 - AI-powered assistant for crypto queries
-- Dark/Light mode
-- Responsive design
 - Integration with exSat network
+- 
 
 ## Prerequisites
 
 - Docker and Docker Compose
-- Node.js 18+ (for local development)
-- Python 3.9+ (for local development)
+- Node.js 18+
+- Python 3.10+
 - News API key (for news service)
 
 ## Setup
@@ -47,15 +46,13 @@ The application will be available at `http://localhost`.
 # Install dependencies
 npm install
 
-# Start development server
+# Start dev server
 npm run dev
 
 # Build for production
 npm run build
 ```
-
 ### Backend Services
-
 Each service can be run independently:
 
 ```bash
@@ -89,11 +86,7 @@ python agent.py
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b feature/home`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+4. Push to the branch (`git push origin feature/home`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
