@@ -133,37 +133,27 @@ Available services:
 - agent
 - frontend
 - exsat-node
-
 ### Health Checks
-
 All services include health check endpoints at `/health`. The startup script verifies service health before proceeding.
-
 ## Troubleshooting
-
 ### Common Issues
-
 1. **Service Not Starting**
    - Check Docker logs: `docker-compose logs [service_name]`
    - Verify environment variables
    - Check service dependencies
-
 2. **Connection Issues**
    - Verify network connectivity
    - Check service health endpoints
    - Ensure Exsat node is running
-
 3. **Data Persistence**
    - Check volume mounting
    - Verify permissions
    - Check disk space
-
 ### Logs
-
 View service logs:
 ```bash
 docker-compose logs -f [service_name]
 ```
-
 ## Contributing
 
 1. Fork the repository
@@ -175,17 +165,3 @@ docker-compose logs -f [service_name]
 
 ## API Documentation
 https://documenter.getpostman.com/view/41487613/2sB2qZEMr5
-=======
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-[Your License Here]
-
-## Support
-
-For support, please [open an issue](https://github.com/your-username/intellifi/issues) or contact the development team.
->>>>>>> Stashed changes
